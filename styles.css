@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* title */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* title image */
+.img-iPhone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 28%;
+}
+
+/* Download-Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* feature's */
+#features {
+  line-height: 1.5;
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 70px;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action */
+#cta {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/* Footer */
+.footer-icon {
+  padding: 0 2% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-iPhone {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
